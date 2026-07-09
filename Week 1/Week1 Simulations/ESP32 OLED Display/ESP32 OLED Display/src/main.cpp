@@ -16,10 +16,8 @@ void setup(){
   Serial.println("Starting");
   Wire.begin(SDA,SCL);
    if(!display.begin(SSD1306_SWITCHCAPVCC,OLEDAddress)){
-Serial.print("OLED Mem Buffer Initialization Failed");
-while (true);
-
-
+    while (true)
+    Serial.print("OLED Mem Buffer Initialization Failed");
    }
 
   display.clearDisplay();
