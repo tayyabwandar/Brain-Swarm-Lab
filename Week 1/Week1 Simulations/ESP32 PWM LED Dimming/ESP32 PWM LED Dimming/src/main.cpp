@@ -1,11 +1,10 @@
 #include <Arduino.h>
 
 #define ledpin 4
-#define channel 0
+#define channel 0 
 void setup(){
-  Serial.begin(115200);
   ledcSetup(channel,5000,8);
-  ledcAttachPin(ledpin,0);
+  ledcAttachPin(ledpin,channel);
   Serial.println("Starting");
 }
 void loop(){
