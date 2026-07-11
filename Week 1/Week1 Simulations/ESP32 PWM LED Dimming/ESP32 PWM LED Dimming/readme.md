@@ -15,11 +15,7 @@ This project demonstrates how to control the brightness of an LED using **Pulse 
 
 ---
 
-## Circuit Diagram
 
-![Circuit Diagram](images/pwm-circuit.png)
-
----
 
 ## Concepts
 
