@@ -50,11 +50,11 @@ A delay of **1000 milliseconds** means the message is printed once every second.
 
 ### Wokwi Simulation
 
-![Wokwi Simulation](1.png)
+![Wokwi Simulation](ScreenShots/1.png)
 
 ### Serial Monitor
 
-![Serial Monitor Output](2.png)
+![Serial Monitor Output](ScreenShots/2.png)
 
 The Serial Monitor displays:
 

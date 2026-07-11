@@ -14,9 +14,6 @@ This project demonstrates how to interface a **0.96-inch SSD1306 OLED Display** 
 
 ---
 
-## Circuit Diagram
-
-![Circuit Diagram](images/oled-circuit.png)
 
 ---
 
@@ -111,11 +108,11 @@ This sends the buffer to the OLED so the new content becomes visible.
 
 ### Circuit Diagram
 
-![OLED Circuit](1.png)
+![OLED Circuit](ScreenShots/1.png)
 
 ### Simulation Output
 
-![OLED Output](2.png)
+![OLED Output](ScreenShots/2.png)
 
 The OLED successfully displays the programmed text while the ESP32 runs normally.
 
@@ -130,9 +127,7 @@ ESP32 OLED Display/
 ├── platformio.ini
 ├── diagram.json
 ├── wokwi.toml
-├── images/
-│   ├── oled-circuit.png
-│   └── oled-output.png
+├── ScreenShots
 └── README.md
 ```
 

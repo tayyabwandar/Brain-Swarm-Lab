@@ -17,7 +17,7 @@ This project demonstrates how to control an external LED using the ESP32. The LE
 
 ## Circuit Diagram
 
-![Circuit Diagram](1.png)
+![Circuit Diagram](ScreenShots/1.png)
 
 ---
 
@@ -92,7 +92,7 @@ Serial.println("Starting");
 
 ### Wokwi Simulation
 
-![Blink LED Running](2.png)
+![Blink LED Running](ScreenShots/2.png)
 
 ### Serial Monitor
 
